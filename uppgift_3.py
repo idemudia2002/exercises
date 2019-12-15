@@ -1,9 +1,11 @@
 
 
-def devisible_by_five(x):
+def divisible_by_five(x):
     if x % 5 == 0:
         return True
     else:
         return False
-        
-print(devisible_by_five(10))
+
+number = input("type a number ")        
+
+print(divisible_by_five(int(number)))

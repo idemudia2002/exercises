@@ -3,5 +3,6 @@ def questionify(x):
   
 print(questionify)
  
+question = input("vad heter du?")
 
 print(questionify("jag heter einar"))
